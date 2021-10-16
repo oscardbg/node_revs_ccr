@@ -40,5 +40,6 @@ server.use(require("./routes/index.route"));
 /**
  * Static Files
  */
+server.use(express.static(path.join(__dirname, "public")));
 
 module.exports = server;
