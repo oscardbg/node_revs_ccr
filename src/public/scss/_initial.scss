@@ -161,20 +161,35 @@ footer {
 /*■■■■■■■■■■■■■■■■■■■■ Pagination */
 .pages {
    display: flex;
-   margin: 0 auto;
-   width: 500px;
    justify-content: center;
    align-items: center;
-   li {
-      margin-right: 5px;
-      &:last-child {
-         margin-right: 0;
-      }
-   }
+   margin: 40px 0;
+   color: $dark-blue;
    a {
       display: block;
-      background: $dark-blue;
-      padding: 8px 10px;
+      padding: 5px 10px;
+      color: $dark-blue;
+   }
+   li {
+      margin-right: 10px;
+      border: 1px solid $dark-blue;
+      transition: 0.2s;
+      &:not(.act):hover {
+         background: $dark-blue;
+         a {
+            color: #fff;
+         }
+      }
+   }
+   .fst {
+      border-radius: 10px 0 0 10px;
+   }
+   .act {
+      border: none;
+   }
+   .lst {
+      border-radius: 0 10px 10px 0;
+      margin-right: 0;
    }
 }
 
