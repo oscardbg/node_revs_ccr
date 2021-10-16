@@ -5,7 +5,8 @@ indexController.renderIndex = (req, res) => {
 };
 
 indexController.renderAbout = (req, res) => {
-   res.render("about");
+   const pgAbout = "about";
+   res.render("about", { pgAbout });
 };
 
 module.exports = indexController;

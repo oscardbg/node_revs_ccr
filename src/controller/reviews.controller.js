@@ -15,4 +15,9 @@ reviewsController.storeDetail = (req, res) => {
    res.render("reviews/storeDetail", { store, pgName });
 };
 
+reviewsController.addReview = (req, res) => {
+   let store = storeList.find((item) => item.id == req.params.id);
+   res.render("reviews/addReview", { store });
+};
+
 module.exports = reviewsController;

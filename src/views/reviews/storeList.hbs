@@ -23,7 +23,9 @@
 <ul class="storeLst">
    {{#each storeList}}
       <li>
-         <img src="/img/defaultImg.png" />
+         <div class="logo">
+            <img src="/img/storeLogo.png" />
+         </div>
          <div class="info">
             <p class="strName">
                <a href="/tiendas/{{id}}">{{name}} </a>
@@ -31,7 +33,7 @@
             <p>{{category}} </p>
          </div>
          <div class="score">
-            <p>{{score}} </p>
+            <p>{{score}} <span>/5</span> </p>
          </div>
       </li>
    {{/each}}

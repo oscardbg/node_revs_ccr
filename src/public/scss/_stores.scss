@@ -52,19 +52,28 @@
    gap: 15px 20px;
    li {
       display: flex;
+      align-items: center;
       padding: 10px;
       border: 1px solid $dark-blue;
       border-radius: 10px;
+      background: #fff;
       transition: 0.2s;
       &:hover {
-         box-shadow: 0 0 2px 2px rgba($light-blue, 0.4);
+         transform: translate(-2px, -2px);
+         box-shadow: 2px 2px 4px rgba($dark-blue, 0.6);
       }
       a {
          font-size: 1.4rem;
          color: $dark-blue;
       }
-      img {
+      .logo {
          margin-right: 10px;
+         width: 140px;
+      }
+      img {
+         height: 80px;
+         display: block;
+         margin: 0 auto;
       }
       .info {
          flex: 1;
@@ -85,6 +94,10 @@
             font-size: 4rem;
             border-bottom: 5px solid #fff;
          }
+         span {
+            font-size: 1rem;
+            margin-left: -10px;
+         }
       }
    }
 }
@@ -92,12 +105,20 @@
 /*■■■■■■■■■■■■■■■■■■■■ Store */
 .store {
    display: flex;
+   align-items: center;
    padding: 15px;
-   border: 1px solid $dark-blue;
+   border: 2px solid $dark-blue;
    border-radius: 15px;
    margin: 0 50px;
+   background: #fff;
+   .logo {
+      margin-right: 10px;
+      width: 140px;
+   }
    img {
-      margin-right: 20px;
+      height: 80px;
+      display: block;
+      margin: 0 auto;
    }
    .info {
       flex: 1;
@@ -112,10 +133,14 @@
          font-size: 4rem;
          border-bottom: 5px solid #fff;
       }
+      span {
+         font-size: 1rem;
+         margin-left: -10px;
+      }
    }
 }
 article {
-   padding: 20px;
+   padding: 20px 20px 0;
 }
 
 /*■■■■■■■■■■■■■■■■■■■■ Bar */
@@ -137,6 +162,7 @@ article {
       border: 1px solid $dark-blue;
       padding: 10px;
       border-radius: 10px;
+      background: #fafafa;
       .info {
          display: flex;
          justify-content: space-between;
@@ -199,26 +225,5 @@ article {
       margin: 20px auto 5px;
       display: block;
       font-size: 1rem;
-   }
-}
-
-/*■■■■■■■■■■■■■■■■■■■■ Pagination */
-.pages {
-   display: flex;
-   margin: 0 auto;
-   width: 500px;
-   justify-content: center;
-   align-items: center;
-   background: #ccc;
-   li {
-      margin-right: 5px;
-      &:last-child {
-         margin-right: 0;
-      }
-   }
-   a {
-      display: block;
-      background: $dark-blue;
-      padding: 8px 10px;
    }
 }

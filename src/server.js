@@ -37,7 +37,7 @@ server.use(express.urlencoded({ extended: false }));
  * Routes
  */
 server.use(require("./routes/index.route"));
-server.use(require("./routes/reviews.routes"));
+server.use("/tiendas", require("./routes/reviews.routes"));
 
 /**
  * Static Files
