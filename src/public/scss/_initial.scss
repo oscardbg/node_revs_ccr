@@ -124,7 +124,36 @@ main {
    }
 }
 
-/*■■■■■■■■■■■■■■■■■■■■  */
+/*■■■■■■■■■■■■■■■■■■■■ About */
+.about {
+   height: 90vh;
+   img {
+      padding-top: 20px;
+      display: block;
+      height: 100px;
+      margin: 0 auto;
+   }
+   h1 {
+      font-size: 6rem;
+      color: $dark-blue;
+      font-family: "Bebas Neue";
+      padding-top: 40px;
+      text-align: center;
+      font-weight: normal;
+      transform: scale(1, 1.2);
+   }
+   p {
+      padding: 0 20px;
+      margin-top: 20px;
+      text-align: justify;
+   }
+   .cp {
+      text-align: center;
+      padding-top: 80px;
+      color: $dark-blue;
+   }
+}
+
 /*■■■■■■■■■■■■■■■■■■■■  */
 /*■■■■■■■■■■■■■■■■■■■■  */
 /*■■■■■■■■■■■■■■■■■■■■  */
