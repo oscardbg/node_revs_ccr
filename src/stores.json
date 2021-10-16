@@ -1,0 +1,72 @@
+[
+   {
+      "id": "1",
+      "name": "Banco Pichincha",
+      "category": "Servicios",
+      "score": 4.2,
+      "reviews": []
+   },
+   {
+      "id": "2",
+      "name": "Play Zone",
+      "category": "Entretenimiento",
+      "score": 4.9,
+      "reviews": []
+   },
+   {
+      "id": "3",
+      "name": "Multicines",
+      "category": "Entretenimiento",
+      "score": 4.1,
+      "reviews": []
+   },
+   {
+      "id": "4",
+      "name": "Agencia Nacional de Tránsito",
+      "category": "Servicios",
+      "score": 1.2,
+      "reviews": []
+   },
+   {
+      "id": "5",
+      "name": "Banco Guayaquil",
+      "category": "Servicios",
+      "score": 3.2,
+      "reviews": []
+   },
+   {
+      "id": "6",
+      "name": "Claro",
+      "category": "Servicios",
+      "score": 3.1,
+      "reviews": []
+   },
+   {
+      "id": "7",
+      "name": "Marathon Sport",
+      "category": "Deportes",
+      "score": 4.2,
+      "reviews": []
+   },
+   {
+      "id": "8",
+      "name": "Mr. Joy",
+      "category": "Entretenimiento",
+      "score": 4.2,
+      "reviews": []
+   },
+   {
+      "id": "9",
+      "name": "KAO Sport Center",
+      "category": "Deportes",
+      "score": 4.2,
+      "reviews": []
+   },
+   {
+      "id": "10",
+      "name": "CNT",
+      "category": "Servicios",
+      "score": 1,
+      "reviews": []
+   }
+]

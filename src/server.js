@@ -26,6 +26,7 @@ server.set("view engine", "hbs");
 /**
  * Middlewares
  */
+server.use(express.json());
 server.use(express.urlencoded({ extended: false }));
 
 /**
@@ -36,6 +37,7 @@ server.use(express.urlencoded({ extended: false }));
  * Routes
  */
 server.use(require("./routes/index.route"));
+server.use(require("./routes/reviews.routes"));
 
 /**
  * Static Files

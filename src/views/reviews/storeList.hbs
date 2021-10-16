@@ -1,0 +1,38 @@
+<h1>Lista de tiendas</h1>
+<div class="search">
+   <form action="." method="get">
+      <input type="text" name="storeTxt" placeholder="Nombre de la tienda" />
+      <select name="categTxt">
+         <option value="">Todas</option>
+
+         <option value="">Electrodomesticos y Tecnologia</option>
+         <option value="">Servicios</option>
+         <option value="">Entretenimiento</option>
+         <option value="">Comida</option>
+         <option value="">Vehículos</option>
+         <option value="">Deportes</option>
+         <option value="">Papelería</option>
+         <option value="">Joyería</option>
+         <option value="">Opticas</option>
+         <option value="">Librería</option>
+         <option value="">Belleza</option>
+      </select>
+      <button type="submit">Buscar</button>
+   </form>
+</div>
+<ul class="storeLst">
+   {{#each storeList}}
+      <li>
+         <img src="/img/defaultImg.png" />
+         <div class="info">
+            <p class="strName">
+               <a href="/tiendas/{{id}}">{{name}} </a>
+            </p>
+            <p>{{category}} </p>
+         </div>
+         <div class="score">
+            <p>{{score}} </p>
+         </div>
+      </li>
+   {{/each}}
+</ul>
